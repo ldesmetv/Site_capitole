@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    background-color: rgb(252, 248, 238);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navBar {
+    height: 7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navTitle {
+    width: 20vw;
+    font-size: 190%;
+    margin-left: 2%;
+}
+
+.navLinks {
+    width: 18vw;
+    font-size: 130%;
+    margin-right: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleBox {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    width: 96vw;
+    font-size: 700%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+}
+
+.headImg {
+    width: 96vw;
+    margin: auto;
+}
+
+.headImg span{
+    position: absolute;
+    z-index: 1;
+    padding: 0.6%;
+    padding-inline: 8%;
+    background-color: black !important;
+    color: white;
+    font-size: 110%;
+}
+
+.headImg img{
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.textBox {
+    width: 96vw;
+    margin-top: 6%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    width: 35vw;
+    font-size: 120%;
+}
+
+.title2 {
+    width: 96vw;
+    font-size: 500%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+}
+
+.articleBox {
+    width: 96vw;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article {
+    width: 30%;
+    background-color: black !important;
+    color: white;
+    
+}
+
+.article div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article h3 {
+    font-size: 200%;
+}
+
+.article p {
+    font-size: 150%;
+    margin-top: 0;
+    margin-bottom: 8%;
+    width: 80%;
+}
+
+.article img{
+    width: 100%;
+}
+
+@media print {
+    body {
+        background-color: transparent;
+    }
+}
